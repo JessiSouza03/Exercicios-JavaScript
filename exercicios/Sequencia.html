@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function sequencia(){
+                var tNum = document.getElementById("txtNumero");
+                var tNum1 = document.getElementById("txtNumero1");
+                var n = parseInt(tNum.value);
+                var sena = parseInt(tNum1.value);
+                var texto = "";
+                for(var i=n; i<=sena; i++){
+                    texto = texto + i +"\n";
+                }
+                alert(texto);
+            }
+        </script>
+    </head>
+    <body>
+        Digite os números para sequência: <br/>
+        <input type="text" id="txtNumero"/><br/>
+        <input type="text" id="txtNumero1"/><br/>
+        <input type="button" value="Exibir" onclick="sequencia();">
+    </body>
+</html>

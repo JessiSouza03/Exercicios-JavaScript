@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function tabuada(){
+                var tNum = document.getElementById("txtNumero");
+                var n = parseInt(tNum.value);
+                var texto = "";
+                for(var i=1; i<=10; i++){
+                    texto = texto + n + " x " + i + " = " + (n * i) + "\n";
+                }
+                alert(texto);
+            }
+        </script>
+    </head>
+    <body>
+        Número: <br/>
+        <input type="text" id="txtNumero"/><br/>
+        <input type="button" value="Exibir" onclick="tabuada();">
+    </body>
+</html>
