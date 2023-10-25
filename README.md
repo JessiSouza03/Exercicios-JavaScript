@@ -4,6 +4,6 @@ Este repositório contém alguns exercícios práticos em JavaScript. Os exercí
 
 ## Conteúdo
 
-- [Exercícios](exercicios): Exercícios simples para iniciantes em PHP.
+- [Exercícios](exercicios):
 - Sequencia: programa que armazena duas váriaveis e mostra a sequencia de números entre elas.
 - Tabuada: programa que recebe um número e mostra a tabuada do mesmo.
