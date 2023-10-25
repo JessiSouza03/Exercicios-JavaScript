@@ -1,4 +1,4 @@
-# Exercícios em PHP
+# Exercícios em JavaScript
 
 Este repositório contém alguns exercícios práticos em JavaScript. Os exercícios são de nível iniciante.
 
